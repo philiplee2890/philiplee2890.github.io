@@ -1,0 +1,354 @@
+*{
+    margin:0;
+    padding:0;
+  }
+  body {
+    background: white;
+  }
+  h1{
+    font-size: 50px;
+    font-weight: bold;
+    font-family:serif;
+    color: #333;
+  }
+  h2{
+    font-size: 40px;
+    font-weight: bold;
+    line-height: 1;
+    font-family:serif;
+    color: #333;
+    margin-bottom: 20px; 
+  }
+  h3{
+    font-size: 28px;
+    font-weight: bold;
+    font-family:serif;
+    color: #333;
+  }
+  h4{
+    font-size: 20px;
+    font-weight: 600;
+    font-family:serif;
+    color: #333;
+  }
+  h5{
+    font-size: 18px;
+    font-weight: 500;
+    font-family: sans-serif;
+    color: #b9793f;
+    
+  }
+  h6{
+    font-size: 16px;
+    font-weight: bold;
+    font-family:serif;
+    color: #333;
+  }
+  p{
+    font-size: 18px;
+    color: #6e6e6e;
+  }
+  li{
+    font-size: 18px;
+    color: #6e6e6e;
+  }
+  
+  .header{
+    display: block;
+    width: 100%;
+    position: relative;
+    background-color: black;
+  }
+  .header-menu{
+    height: 80px;
+    position: relative;
+  }
+  .header .flex-row{
+    height: 100%;
+  }
+  .flex-row{
+    display: flex;
+    flex-flow: row nowrap;
+    width: 100%;
+    justify-content: space-between;
+    align-items: center;
+  }
+  .container{
+    max-width: 1140px;
+    width:100%;
+    padding: 0 15px;
+    margin-left: auto;
+    margin-right: auto;
+  }
+  
+  
+  .logo img{
+    width: auto;
+  }
+  .logo{
+    margin-left: 0;
+    margin-right: 30px
+  }
+  .flex-col{
+    max-height: 100%;
+  }
+  .flex-right{
+    margin-left:auto;
+  }
+  .nav-right{
+    justify-content: flex-end;
+  }
+  .nav{
+    width: 100%;
+    position: relative;
+    display: flex;
+    flex-flow: row wrap;
+    align-items: center;
+    margin: 0;
+    padding: 0;
+  }
+  ul{
+    list-style: disc;
+  }
+  .nav-spacing>li{
+    margin: 0 15px;
+  }
+  .header-menu .nav>li{
+    display: inline-block;
+    list-style: none;
+    padding: 0
+  }
+  .header-menu .nav >li>a{
+    font-weight: 700;
+    font-size: 18px;
+    text-decoration: none;
+    line-height: 16px;
+    font-family:sans-serif;
+    color: white;
+  }
+  .banner {
+    background-image: url("banner-pic.jpg");
+    height:914px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-size:cover;
+    background-position: 50% 80%;
+    margin: auto;
+    
+  }
+  .text-area h1{
+    color: white;
+  }
+  
+  .section{
+    padding: 50px 0 70px 0;
+  }
+  .section2{
+    background-color: #f3f7f2;
+  }
+
+  .borneo-img {
+    width:900px;
+    height:600px;
+    padding-left:50px;
+  }
+  
+  .section-scroll{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    min-height: 350px;
+    background-image: url("scroll-background.jpg");
+    opacity: 0.75;
+    position: relative;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+  
+  
+  .row{
+    max-width: 1140px;
+    width:100%;
+    display: flex;
+    flex-flow: row wrap;
+    margin-left: auto;
+    margin-right: auto;
+    justify-content:space-around;
+  }
+  .column{
+    display:block;
+    flex:1;
+    float:left;
+    padding:20px;
+  }
+  .column-center{
+    display:block;
+    flex:1;
+    text-align: center;
+    padding:20px;
+  }
+  .row-wrap{
+    margin: 0 auto;
+    max-width: 1200px;
+    display: flex;
+    align-items: center;
+  }
+  .row-wrap-col{
+    display:block;
+    margin: auto;
+    padding:20px;
+  }
+  .row-wrap.species-img{
+    text-align: center;
+  }
+  .row-wrap .species-img li{
+    display: inline-block;
+    margin-right: 20px;
+  }
+  .row-wrap ul{
+    list-style: none;
+  }
+
+  .overview{
+    font-weight: normal;
+    color: rgb(198, 136, 23);
+    font-size: 20px;
+  }
+
+  .species-img .name{
+    display: block;
+    margin-top: 15px;
+    text-align: center;
+  }
+  
+  .species-img img{
+    border: 5px solid #b9793f;
+    background-color: #b9793f;
+    border-radius: 100px;
+  }
+
+  .list{
+    padding: 0;
+    margin: 0;
+    list-style-type: none;
+  }
+  .land{
+    background: url('area-icon.png') no-repeat left top;
+    background-size: 40px;
+    height: 50px;
+    padding-top: 0px;
+    padding-left: 50px;
+    background-position: 0 5px;
+  }
+  
+  .population{
+    background: url('population-people-icon.png') no-repeat left top;
+    background-size: 40px;
+    height: 50px;
+    padding-top: 0px;
+    padding-left: 50px;
+    background-position: 0 5px;
+  }
+  
+  .bio{
+    background: url('biodiversity-icon.png') no-repeat left top;
+    background-size: 40px;
+    height: 50px;
+    padding-top: 0px;
+    padding-left: 50px;
+    background-position: 0 5px;
+  }
+  
+  .countries{
+    background: url('countries-icon.png') no-repeat left top;
+    background-size: 40px;
+    height: 50px;
+    padding-top: 0px;
+    padding-left: 50px;
+    background-position: 0 5px;
+  }
+  ul>li.bullet-tick{
+    list-style: none;
+  }
+  li.bullet-tick::before{
+    content: "✓";
+    color: #FF880E;
+    font-weight: bold;
+    display: inline-block;
+    width: 1em;
+    margin-left: -1em;
+  }
+  .spacer{
+    padding-top: 20px;
+    display: block;
+  }
+  .scroll-bg-text-area{
+    position: relative;
+    top: 50%;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    color: white;
+  }
+  .scroll-bg-text-area h2.text-box{
+    background-color: black;
+    padding: 18px;
+    font-size: 25px;
+    color: white;
+  }
+  .image-text-box{
+    
+  }
+  .image-text-box li{
+    margin-left: 20px;
+  }
+  .column-4{
+    width: 22%;
+    
+  }
+  .column-4 img{
+    max-width: 100%;
+    height: auto;
+  }
+  .footer-wrapper{
+    width: 100%;
+    position: relative;
+  }
+
+  .footer-wrapper .row .column ul{
+    list-style: none;
+  }
+  
+  .footer-wrapper .row .column ul li{
+    display: inline-block;
+    margin-left: 10px; /* add spacing between items */
+  }
+  
+  footer{
+    display: block;
+    background-color: black;
+    padding: 30px 0;
+  }
+  footer ul>li{
+    list-style: none;
+  }
+  footer h5{
+    font-weight: bold;
+  }
+  footer a{
+    text-decoration: none;
+    color: white;
+  }
+  footer a:hover{
+    text-decoration: none;
+    color: grey;
+  }
+
+  ::-webkit-scrollbar {
+    display: none;
+  }
+  
